@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+// https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm 
+
 // Comparison function
 int compare(const void* a, const void* b) {
    return (*(int*)a - *(int*)b);
